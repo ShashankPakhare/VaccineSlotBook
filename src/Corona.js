@@ -147,7 +147,7 @@ export const Corona = () => {
    
     return (
         <>
-            <div className="allstart">
+            <div className="allstart Covid">
 
             <div className="headn">
             <div className="start">
