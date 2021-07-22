@@ -4,4 +4,4 @@
   <br/>
 <p>And can also check the corona status of different state</p>
  <br/>
-#link = https://videoap.herokuapp.com/
+#link = https://vaccineslotfind.herokuapp.com/covid
