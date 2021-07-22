@@ -31,7 +31,7 @@ export const Covid = () => {
       return (
         <>
           
-          <div className="col-sm-2 car first ">
+          <div className="col-sm-12 col-md-4 col-lg-2 car first ">
         <div className="card bg-dark">
         <div class="card-header">
         <h4 className="card-title">{index.state}</h4>
@@ -65,9 +65,9 @@ export const Covid = () => {
           return (
             <>
               
-              <div className="first  cp">
+              <div className="first col-sm-12 col-md-12 col-lg-12  cp">
             <div className="card bg-dark">
-            <div class="card-header">
+            <div class="card-header ">
             <h4 className="card-title">{index.state}</h4>
                     </div>
               <div className="card-body text-light">
@@ -131,7 +131,7 @@ export const Covid = () => {
             <div className="Covid">
             
                 <div className="heading"><h1>Covid Tracker </h1></div>
-                <div className="container  India">
+                <div className="  India">
                   <h1 className="container indiaHeading">India Corona Status </h1>
                 
                   <div className="container indiaHeading">
