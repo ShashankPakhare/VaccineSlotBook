@@ -1,4 +1,4 @@
-import React ,{useState ,useEffect }from 'react'
+import React ,{useState  }from 'react'
 
 export const Corona = () => {
     const [fuser,setfuser]= useState({
@@ -146,7 +146,7 @@ export const Corona = () => {
     }
    
     return (
-        <>
+        <>  <br /> <br />
             <div className="allstart Covid">
 
             <div className="headn">
