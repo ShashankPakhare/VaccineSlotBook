@@ -128,10 +128,7 @@ form{
   padding: 5px;
 }
 
-.allstart{
- 
-  color: #af4532;
-}
+
 
 .bars{
   display: flex;
@@ -236,7 +233,10 @@ body, .Covid{
   margin-right: 0px;
 }
 
-
+.allstart{
+ 
+  color: #af4532;
+}
 
 
 /* git remote add origin https://github.com/ShashankPakhare/VaccineSlotBook.git */
