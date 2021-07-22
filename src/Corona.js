@@ -20,9 +20,14 @@ export const Corona = () => {
 
         const res=await fetch(ans);
         const s=await res.json();
+
+        if(s.sessions)
         setuser(s.sessions);
-       console.log(s.sessions);
-       console.log(user.length);
+
+        else 
+        return 0;
+       //console.log(s.sessions);
+       //console.log(user.length);
 
     if(s.sessions.length>0)
        return 1;
@@ -59,6 +64,8 @@ export const Corona = () => {
         console.log(d);
      let ans=`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=${fuser.pincode}&date=${d}`;
       let re= await getCovidData(ans);
+
+
        let nodata=document.querySelector(".nodata");
        nodata.innerHTML=("");
        console.log(re);
@@ -112,8 +119,9 @@ export const Corona = () => {
         if(user.length>0)
         return(
             <>
-                 <h1>VACCINCE DETAILS :</h1>            
-            <table class="table text-light shashank">
+                 <h1>VACCINCE DETAILS :</h1>  
+                 <div class="table-responsive">         
+            <table class="table table-striped table-dark shashank">
                
   <thead>
     <tr>
@@ -132,6 +140,7 @@ export const Corona = () => {
   {user.map(ndata)}
   </tbody>
 </table>
+</div> 
             </>
         )
     }
