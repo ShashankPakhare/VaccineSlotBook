@@ -4,4 +4,4 @@
 <br/>
 in this you can find the vaccince slot detail with the help of pincode and date
 <br/>
-<h4>#link = https://videoap.herokuapp.com/</h4>
+<h4>#link = https://vaccineslotfind.herokuapp.com</h4>
