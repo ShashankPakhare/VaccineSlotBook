@@ -129,7 +129,7 @@ form{
 }
 
 .allstart{
- height: 100vh;
+ 
   color: #af4532;
 }
 
@@ -203,7 +203,7 @@ font-family: 'Tourney', cursive;
   font-family: 'Otomanopee One', sans-serif;
 }
 
-body,.Covid{
+body, .Covid{
   margin: top 10px;
   color: #04AA6D;
   background-color: #282c34;
