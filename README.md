@@ -4,4 +4,4 @@ In this you can find the vaccince slot detail with the help of pincode and date
   <br/>
 And can also check the corona status of different state
  <br/>
-#link = https://videoap.herokuapp.com/
+#link = https://vaccineslotfind.herokuapp.com/covid
