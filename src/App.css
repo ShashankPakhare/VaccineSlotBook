@@ -224,9 +224,9 @@ body,.Covid{
 }
 
 .pos{
-  position: sticky;
+  position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 12;
 }
 
 .cp{
@@ -235,10 +235,8 @@ body,.Covid{
   background-color: #282c34;
   margin-right: 0px;
 }
-.India{
-  display: flex;
-  flex-wrap: wrap;
-}
+
+
 
 
 /* git remote add origin https://github.com/ShashankPakhare/VaccineSlotBook.git */
